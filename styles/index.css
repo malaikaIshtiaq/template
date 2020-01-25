@@ -1,0 +1,36 @@
+.mt-5 {
+  margin-top: 0.4rem !important;
+}
+.profile-nav {
+  margin-right: 90px;
+  list-style: none;
+}
+
+.profile-nav a::after {
+  color: white !important;
+}
+.sidebar {
+  background: #01786d;
+  position: fixed !important;
+  margin-top: -8px;
+  height: 100%;
+}
+.sidebar a,
+span {
+  color: white !important;
+}
+a.nav-link.active {
+  background: #009688;
+}
+
+.nav-link:hover {
+  background: #009688;
+}
+@media only screen and (max-width: 600px) {
+  .sidebar {
+    background: #01786d;
+    position: relative !important;
+    margin-top: -8px;
+    height: 100%;
+  }
+}
